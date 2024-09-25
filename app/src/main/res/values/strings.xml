@@ -1,0 +1,6 @@
+<resources>
+    <integer name="com_vk_sdk_AppId">51709504</integer>
+    <string name="app_name">LentaVK</string>
+    <string name="button_sign_in">Sign In</string>
+    <string name="comments_title">Коментарии</string>
+</resources>
