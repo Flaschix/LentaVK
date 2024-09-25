@@ -68,19 +68,19 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
-    implementation("com.google.dagger:dagger:2.51.1")
-    kapt("com.google.dagger:dagger-compiler:2.51.1")
+    implementation(libs.dagger)
+    kapt(libs.dagger.compiler)
 
-    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
-    implementation("com.squareup.okhttp3:logging-interceptor:4.9.3")
+    implementation(libs.converter.gson)
+    implementation(libs.logging.interceptor)
 
-    implementation("com.vk:android-sdk-api:4.0.1")
-    implementation("com.vk:android-sdk-core:4.0.1")
+    implementation(libs.android.sdk.api)
+    implementation(libs.android.sdk.core)
 
-    implementation("com.google.code.gson:gson:2.10.1")
-    implementation("io.coil-kt:coil-compose:2.4.0")
+    implementation(libs.gson)
+    implementation(libs.coil.compose)
 
-    implementation("androidx.compose.runtime:runtime-livedata:1.7.2")
-    implementation("androidx.navigation:navigation-compose:2.8.1")
-    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.6")
+    implementation(libs.androidx.runtime.livedata)
+    implementation(libs.androidx.navigation.compose)
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
 }
